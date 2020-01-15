@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-writers-friend": "rm -rf writers-friend && mkdir writers-friend && cd ../writers-friend && npm run build-prod && cp dist/* ../davidcalhoun.github.io/writers-friend*"
+    "update-wf": "rm -rf writers-friend && mkdir writers-friend && cd ../writers-friend && npm run build-prod && cp -r dist/writers-friend/* ../davidcalhoun.github.io/writers-friend*"
   },
   "repository": {
     "type": "git",
