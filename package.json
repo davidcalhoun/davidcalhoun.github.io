@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update-wf": "rm -rf writers-friend && mkdir writers-friend && cd ../writers-friend && npm run build-prod && cp -r dist/writers-friend/* ../davidcalhoun.github.io/writers-friend*"
+    "update-wf": "rm -rf writers-friend && mkdir writers-friend && cd ../writers-friend && npm run build-prod && cp -r dist/writers-friend/* ../davidcalhoun.github.io/writers-friend*",
+    "update-hover": "rm -rf react-hover-slideshow && mkdir react-hover-slideshow && cd ../react-hover-slideshow && npm run build-storybook && cp -r .storybook-out/* ../davidcalhoun.github.io/react-hover-slideshow/"
   },
   "repository": {
     "type": "git",
