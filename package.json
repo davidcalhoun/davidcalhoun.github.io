@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update-wf": "rm -rf writers-friend && mkdir writers-friend && cd ../writers-friend && npm run build-prod && cp -r dist/writers-friend/* ../davidcalhoun.github.io/writers-friend*",
     "update-hover": "rm -rf react-hover-slideshow && mkdir react-hover-slideshow && cd ../react-hover-slideshow && npm run build-storybook && cp -r .storybook-out/* ../davidcalhoun.github.io/react-hover-slideshow/",
-    "update-covid": "rm -rf covid-19-map-south-carolina && mkdir covid-19-map-south-carolina && cd ../covid-19-map-south-carolina && npm run build && cp -r dist/* ../davidcalhoun.github.io/covid-19-map-south-carolina*"
+    "update-covid": "rm -rf covid-19-map-south-carolina && mkdir covid-19-map-south-carolina && cd ../covid-19-map-south-carolina && npm run build-prod && cp -r dist/covid-19-map-south-carolina/* ../davidcalhoun.github.io/covid-19-map-south-carolina*"
   },
   "repository": {
     "type": "git",
